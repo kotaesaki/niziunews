@@ -3,6 +3,7 @@
     "name": "niziunews-app",
     "slug": "niziunews-app",
     "version": "1.0.0",
+    "privacy": "public",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
@@ -13,14 +14,16 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "newsApiKey": "bf0a9119ec28482ea9badb112cff0039",
+      "bingApiKey": "242e192c4fe8474ab85c8dc8af02012b"
     }
   }
 }
